@@ -36,23 +36,23 @@ export const mockUpcomingFlight = {
 export const mockNews = [
   {
     id: 'n1',
-    title: 'Formulir pelaporan kelelahan (FRMS) diperbarui',
+    title: 'Fatigue Reporting Form (FRMS) Updated',
     tag: 'Ops Bulletin',
-    date: '28 Mei',
-    excerpt: 'Formulir FRMS versi baru menggantikan pengajuan kertas mulai 1 Juni.'
+    date: 'May 28',
+    excerpt: 'The new FRMS version replaces paper submissions starting June 1.'
   },
   {
     id: 'n2',
-    title: 'Peringatan cuaca musim pancaroba — Jawa Barat',
+    title: 'Transitional Season Weather Warning — West Java',
     tag: 'Flight Ops',
-    date: '26 Mei',
-    excerpt: 'Perkirakan reroute di sekitar aktivitas konvektif hingga Agustus.'
+    date: 'May 26',
+    excerpt: 'Expect reroutes around convective activity areas until August.'
   },
   {
     id: 'n3',
-    title: 'Jam layanan CRD pindah ke Hangar 2',
+    title: 'CRD Service Hours Moved to Hangar 2',
     tag: 'Crew Admin',
-    date: '22 Mei',
-    excerpt: 'Layanan walk-in kini berada di sebelah ruang briefing kru.'
+    date: 'May 22',
+    excerpt: 'Walk-in services are now available next to the crew briefing room.'
   }
 ]
