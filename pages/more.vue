@@ -8,10 +8,11 @@ import {
   Headphones,
   LogOut,
 } from "lucide-vue-next";
-import { usePilotStore } from "~/stores/pilot";
+import { useAuthStore } from "~/stores/auth";
 
-const auth = usePilotStore();
+const auth = useAuthStore();
 const router = useRouter();
+console.log(auth);
 
 function signOut() {
   auth.logout();
@@ -75,12 +76,12 @@ const menus = [
         <div
           class="flex h-16 w-16 items-center justify-center rounded-full bg-red-600 text-xl font-bold text-white"
         >
-          {{ auth.profile.name.charAt(0) ?? "P" }}
+          {{ "JD" }}
         </div>
 
         <div class="flex-1">
           <h2 class="text-lg font-bold text-white">
-            {{ auth.profile.name ?? "Pilot" }}
+            {{ "John Doe" }}
           </h2>
 
           <p class="text-sm text-slate-300">Susi Air Pilot</p>
